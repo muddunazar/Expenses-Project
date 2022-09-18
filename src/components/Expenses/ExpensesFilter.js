@@ -3,7 +3,7 @@ import './ExpensesFilter.css';
 const ExpensesFilter = (props) => {
     const dropdownChangeHandler = (event) => {
         const yearPicked = event.target.value
-        console.log(yearPicked);
+        // console.log(yearPicked);
         props.onChangeFilter(yearPicked)
     }
     return (
